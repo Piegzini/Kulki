@@ -1,0 +1,25 @@
+.fields__wrapper{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.field{
+    border: 1px solid #ddd;
+    width: 50px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3rem;
+    user-select: none;
+}
+
+.field:hover{
+    background-color: #555;
+    cursor: pointer;
+}
